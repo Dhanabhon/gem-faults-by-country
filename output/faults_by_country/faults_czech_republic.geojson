@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "faults_czech_republic",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "average_dip": "(80.0,70,90)", "average_rake": "(10,0,20)", "catalog_id": "EUR_ATCS014", "catalog_name": "SHARE", "dip_dir": null, "lower_seis_depth": "(15.0,,)", "name": null, "net_slip_rate": "None", "slip_type": "Sinistral", "upper_seis_depth": "(0.0,,)", "downthrown_side_id": null, "reference": null, "epistemic_quality": null, "accuracy": null, "activity_confidence": null, "fs_name": null, "last_movement": null, "downthrown_side_dir": null, "vert_sep_rate": null, "strike_slip_rate": null, "exposure_quality": null, "shortening_rate": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 16.280658, 48.885117 ], [ 16.217967, 48.832283 ], [ 16.174989, 48.799952 ], [ 16.083515, 48.756186 ], [ 16.046492, 48.730376 ], [ 15.951034, 48.662346 ], [ 15.904902, 48.621734 ], [ 15.857785, 48.579348 ], [ 15.810667, 48.536962 ], [ 15.754087, 48.500097 ], [ 15.697507, 48.463231 ], [ 15.634421, 48.427351 ], [ 15.571335, 48.39147 ], [ 15.495633, 48.342579 ], [ 15.441024, 48.303939 ], [ 15.386415, 48.265298 ], [ 15.291195, 48.198467 ], [ 15.195975, 48.131636 ] ] } }
+]
+}

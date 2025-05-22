@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "faults_saint_kitts_and_nevis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "average_dip": "(70,50,90)", "average_rake": null, "catalog_id": "CA_224.0", "catalog_name": "GEM_Central_Am_Carib", "dip_dir": "NE", "lower_seis_depth": null, "name": null, "net_slip_rate": null, "slip_type": "Sinistral-Normal", "upper_seis_depth": null, "downthrown_side_id": null, "reference": "Feuillet et al., 2011", "epistemic_quality": "2", "accuracy": "500000", "activity_confidence": "2", "fs_name": null, "last_movement": null, "downthrown_side_dir": "NE", "vert_sep_rate": null, "strike_slip_rate": null, "exposure_quality": "2", "shortening_rate": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -62.77259588600721, 17.214233920253204 ], [ -62.732515331616838, 17.191330746315845 ], [ -62.70006916853891, 17.172244768034716 ], [ -62.663805809804764, 17.160793181066037 ], [ -62.627542451070617, 17.137890007128679 ], [ -62.61227366844571, 17.130255615816228 ], [ -62.591279092336464, 17.10735244187887 ], [ -62.585553298852126, 17.099718050566416 ], [ -62.574101711883451, 17.080632072285287 ], [ -62.55692433143043, 17.065363289660382 ], [ -62.530203961836847, 17.042460115723024 ], [ -62.511117983555714, 17.02719133309812 ], [ -62.471037429165342, 17.011922550473216 ] ] } }
+]
+}

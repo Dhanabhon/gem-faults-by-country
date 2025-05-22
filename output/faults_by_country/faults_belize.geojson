@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "faults_belize",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "average_dip": "(90,,)", "average_rake": null, "catalog_id": "CA_23.0", "catalog_name": "GEM_Central_Am_Carib", "dip_dir": null, "lower_seis_depth": null, "name": null, "net_slip_rate": null, "slip_type": "Sinistral", "upper_seis_depth": null, "downthrown_side_id": null, "reference": "DEM", "epistemic_quality": null, "accuracy": "100000", "activity_confidence": "2", "fs_name": "Motagua-Polochic Fault Zone", "last_movement": null, "downthrown_side_dir": null, "vert_sep_rate": null, "strike_slip_rate": null, "exposure_quality": null, "shortening_rate": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -89.39567093713616, 15.81509451630639 ], [ -89.374202852584844, 15.822561676150329 ], [ -89.35833513791647, 15.828162046033283 ], [ -89.337333750855393, 15.833762415916237 ], [ -89.32053264120654, 15.843563063211406 ], [ -89.302798136577181, 15.851030223055345 ], [ -89.277596472103895, 15.860364172860267 ], [ -89.258928572494042, 15.86969812266519 ], [ -89.235593697981741, 15.883232349882329 ], [ -89.217392495862128, 15.892566299687251 ], [ -89.211325428488934, 15.896766577099466 ] ] } }
+]
+}

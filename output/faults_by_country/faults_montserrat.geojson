@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "faults_montserrat",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "average_dip": "(60,50,70)", "average_rake": null, "catalog_id": "CA_226.0", "catalog_name": "GEM_Central_Am_Carib", "dip_dir": "NE", "lower_seis_depth": null, "name": null, "net_slip_rate": null, "slip_type": "Normal-Sinistral", "upper_seis_depth": null, "downthrown_side_id": null, "reference": "Feuillet et al. 2011", "epistemic_quality": "2", "accuracy": "500000", "activity_confidence": null, "fs_name": null, "last_movement": null, "downthrown_side_dir": "NE", "vert_sep_rate": null, "strike_slip_rate": null, "exposure_quality": "2", "shortening_rate": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -62.3183496029163, 16.791479501326151 ], [ -62.293537831150829, 16.782890811099644 ], [ -62.270634657213478, 16.773347821959078 ], [ -62.247731483276119, 16.75903333824823 ], [ -62.233416999565272, 16.751398946935776 ], [ -62.214331021284139, 16.740901658881157 ], [ -62.188564950604608, 16.721815680600024 ], [ -62.161844581011025, 16.712272691459457 ], [ -62.135124211417441, 16.699866805576722 ] ] } }
+]
+}

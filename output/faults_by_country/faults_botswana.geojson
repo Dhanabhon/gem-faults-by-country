@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "faults_botswana",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "average_dip": null, "average_rake": null, "catalog_id": "EAF_644", "catalog_name": "Macgregor_AfricaFaults", "dip_dir": null, "lower_seis_depth": null, "name": null, "net_slip_rate": null, "slip_type": "Normal", "upper_seis_depth": null, "downthrown_side_id": null, "reference": null, "epistemic_quality": null, "accuracy": null, "activity_confidence": null, "fs_name": null, "last_movement": null, "downthrown_side_dir": null, "vert_sep_rate": null, "strike_slip_rate": null, "exposure_quality": null, "shortening_rate": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 30.1674800320001, -21.3992205509999 ], [ 28.3576336080001, -22.039799066999901 ] ] } }
+]
+}

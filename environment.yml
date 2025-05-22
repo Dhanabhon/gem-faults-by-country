@@ -1,0 +1,16 @@
+name: global_fault_splitter
+channels:
+  - conda-forge  # IMPORTANT: Use conda-forge for geospatial packages like geopandas and gdal
+  - defaults
+dependencies:
+  - python=3.9    # Or your preferred Python version (e.g., 3.10, 3.11)
+  - geopandas
+  - fiona
+  - shapely
+  - tqdm
+  - gdal          # Explicitly add gdal
+  # If you have any other purely Python packages not available on conda-forge/defaults,
+  # you can list them under a 'pip:' section.
+  # - pip
+  # - pip:
+  #   - your_other_pip_package

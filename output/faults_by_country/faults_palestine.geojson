@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "faults_palestine",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "average_dip": "(85.0,80.0,90.0)", "average_rake": "(5,0.0,10.0)", "catalog_id": "ME_JO1", "catalog_name": "EMME", "dip_dir": null, "lower_seis_depth": "(19.5,,)", "name": null, "net_slip_rate": "(4.8,3.5,6.0)", "slip_type": "Sinistral", "upper_seis_depth": "(0.0,,)", "downthrown_side_id": null, "reference": null, "epistemic_quality": "2", "accuracy": null, "activity_confidence": null, "fs_name": null, "last_movement": null, "downthrown_side_dir": null, "vert_sep_rate": null, "strike_slip_rate": null, "exposure_quality": null, "shortening_rate": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 35.56014, 33.13403 ], [ 35.621415, 33.016661 ], [ 35.629225, 32.936849 ], [ 35.609868, 32.739482 ], [ 35.545236, 31.904166 ], [ 35.486589, 31.728662 ] ] } },
+{ "type": "Feature", "properties": { "average_dip": "(70.0,70.0,70.0)", "average_rake": "(-20,-20.0,-20.0)", "catalog_id": "ME_JO2", "catalog_name": "EMME", "dip_dir": null, "lower_seis_depth": "(20.0,,)", "name": null, "net_slip_rate": "(3.5,3.14,3.84)", "slip_type": "Sinistral", "upper_seis_depth": "(1.0,,)", "downthrown_side_id": null, "reference": null, "epistemic_quality": "2", "accuracy": null, "activity_confidence": null, "fs_name": null, "last_movement": null, "downthrown_side_dir": null, "vert_sep_rate": null, "strike_slip_rate": null, "exposure_quality": null, "shortening_rate": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 35.4778, 31.7036 ], [ 35.436708, 31.668173 ], [ 35.4051, 31.588602 ], [ 35.361002, 31.2222 ], [ 35.353003, 30.988901 ] ] } }
+]
+}

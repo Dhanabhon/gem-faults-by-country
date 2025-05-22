@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "faults_siachen_glacier",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "average_dip": null, "average_rake": null, "catalog_id": "GAF_175", "catalog_name": "HimaTibetMap", "dip_dir": null, "lower_seis_depth": null, "name": null, "net_slip_rate": "(6,1,11)", "slip_type": "Dextral", "upper_seis_depth": null, "downthrown_side_id": null, "reference": "Murphy, et al., 2000; Wright et al., 2004; Brown et al., 2002; Chevalier et al., 2005, 2011", "epistemic_quality": null, "accuracy": null, "activity_confidence": null, "fs_name": "Karakoram Fault", "last_movement": null, "downthrown_side_dir": null, "vert_sep_rate": null, "strike_slip_rate": null, "exposure_quality": "1", "shortening_rate": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 75.390291434242314, 37.30525655448298 ], [ 75.437154470175628, 37.1244991301688 ], [ 75.691553808099286, 36.836626195149918 ], [ 76.173573606270438, 36.354606396978774 ], [ 76.668982843279665, 35.899365476483801 ], [ 76.80957195107959, 35.77886052694101 ], [ 76.970245217136636, 35.537850627855441 ], [ 77.157697360869861, 35.343703764703172 ], [ 77.291591749250742, 35.089304426779506 ], [ 77.679885475555267, 34.5671163120941 ] ] } }
+]
+}

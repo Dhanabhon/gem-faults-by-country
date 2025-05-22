@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "faults_slovakia",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "average_dip": "(75.0,60,90)", "average_rake": "(-10,-20,0)", "catalog_id": "EUR_ATCS001", "catalog_name": "SHARE", "dip_dir": null, "lower_seis_depth": "(12.0,,)", "name": null, "net_slip_rate": "(1.5,1.0,2.0)", "slip_type": "Sinistral", "upper_seis_depth": "(0.0,,)", "downthrown_side_id": null, "reference": null, "epistemic_quality": null, "accuracy": null, "activity_confidence": null, "fs_name": null, "last_movement": null, "downthrown_side_dir": null, "vert_sep_rate": null, "strike_slip_rate": null, "exposure_quality": null, "shortening_rate": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 17.679679, 48.658682 ], [ 17.540705, 48.643851 ], [ 17.458207, 48.622927 ], [ 17.339659, 48.575737 ], [ 17.249024, 48.508722 ], [ 17.1886, 48.474665 ], [ 17.141909, 48.427425 ], [ 17.044408, 48.370298 ], [ 16.946906, 48.31317 ], [ 16.911278, 48.279033 ], [ 16.853107, 48.242336 ], [ 16.772227, 48.139315 ], [ 16.738994, 48.111026 ], [ 16.716748, 48.100451 ], [ 16.615676, 48.072986 ], [ 16.481645, 48.001577 ], [ 16.34608, 47.902608 ], [ 16.254838, 47.836601 ], [ 16.163597, 47.770593 ], [ 16.099328, 47.735438 ], [ 16.047694, 47.71017 ], [ 16.015312, 47.689309 ] ] } }
+]
+}
