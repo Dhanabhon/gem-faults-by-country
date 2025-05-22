@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "faults_people's_republic_of_china",
+"name": "faults_peoples_republic_of_china",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "average_dip": null, "average_rake": null, "catalog_id": "GAF_0", "catalog_name": "HimaTibetMap", "dip_dir": null, "lower_seis_depth": null, "name": null, "net_slip_rate": null, "slip_type": "Reverse", "upper_seis_depth": null, "downthrown_side_id": null, "reference": null, "epistemic_quality": null, "accuracy": null, "activity_confidence": null, "fs_name": null, "last_movement": null, "downthrown_side_dir": null, "vert_sep_rate": null, "strike_slip_rate": null, "exposure_quality": "1", "shortening_rate": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 88.043729805312935, 41.020015375182595 ], [ 88.30150718093671, 40.815115409943182 ], [ 88.473358764685898, 40.76223799955882 ], [ 88.684868406223359, 40.7159702654725 ], [ 88.988913515933461, 40.709360589174459 ], [ 89.43837150420056, 40.7159702654725 ], [ 89.696148879824335, 40.808505733645141 ], [ 89.848171434679386, 40.88121217292364 ] ] } },
