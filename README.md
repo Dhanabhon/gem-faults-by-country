@@ -27,6 +27,23 @@ The project has a clear and logical folder structure to keep everything organize
         │   └── ne_10m_admin_0_countries.VERSION.txt
 ```
 
+## Key Features:
+
+- Splits global fault data by country boundaries using spatial intersection
+- Optional geometry simplification to reduce file sizes
+- Progress tracking and file size reporting
+- Sanitized filename generation for cross-platform compatibility
+
+### Input Data:
+
+- GEM Global Active Faults harmonized GeoJSON file
+- Natural Earth country boundaries shapefile
+
+### Output:
+
+- Country-specific fault GeoJSON files in output/faults_by_country/
+- Files saved to `original/` (no simplification) or `simplified_X_XXX/` (with simplification)
+
 ## Getting Started
 
 Follow these steps to set up and run the project:
