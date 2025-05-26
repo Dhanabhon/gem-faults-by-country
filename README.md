@@ -72,7 +72,7 @@ Before running any Python script related to this project, you must activate its 
 You'll see (`global_fault_splitter`) appear in your terminal prompt, indicating the environment is active.
 
 **3. Configure `main.py` (Optional Review)**
-   
+
 Open the `main.py` file with a text editor or IDE.
 
 `COUNTRY_NAME_COLUMN:`
@@ -85,23 +85,45 @@ The script includes a line `gdal.SetConfigOption('SHAPE_RESTORE_SHX', 'YES')` to
 
 **4. Run the Script**
 
-Once your Conda environment is active and data files are in their correct places, execute the main script:
+Once your Conda environment is active and data files are in their correct places, execute the main script. You can now control the simplification (compression) of the GeoJSON files using a command-line argument:
+
+- **To run without simplification (output to `output/faults_by_country/original/`):**
 
 ```bash
   python main.py
 ```
 
-A **progress bar** will appear in your terminal, showing the processing status as the script works through each country.
+- **To run with simplification (output to `output/faults_by_country/simplified_X_XXXX/`):**
 
-Upon successful completion, the processed GeoJSON files will be saved into the `./output/faults_by_country/` directory.
+Replace `0.001` with your desired tolerance value. A higher value means more simplification (smaller file size, less detail).
+
+```bash
+  python main.py --simplify-tolerance 0.001
+```
+
+_(For global data in degrees, common values for `simplify-tolerance` range from `0.0005` to `0.01`. Experiment to find the balance between file size and detail.)_
+
+- **To see help for arguments:**
+
+```bash
+  python main.py --help
+```
+
+- A **progress bar** will appear in your terminal, showing the processing status as the script works through each country.
+
+- Upon successful completion, the processed GeoJSON files will be saved into the dynamically named output directory (e.g., `./output/faults_by_country/original/` or `./output/faults_by_country/simplified_0_001/`).
 
 ## Output Files
 
 The script generates individual GeoJSON files for each country that contains active fault data. These files are stored in the `./output/faults_by_country/` directory.
 
+- **Output Folder Naming:**
+  - If `simplify-tolerance` is `0.0` (default), files are saved to `./output/faults_by_country/original/`.
+  - If `simplify-tolerance` is set (e.g., `0.001`), files are saved to `./output/faults_by_country/simplified_0_001/`.
+
 - **Naming Convention:** File names are standardized to be entirely lowercase for consistency (e.g., `faults_thailand.geojson`, `faults_united_states.geojson`).
 
-- **Content:** Each GeoJSON file contains the active fault geometries and their associated attributes that intersect or fall within the respective country's boundaries.
+- **Content:** Each GeoJSON file contains the active fault geometries and their associated attributes that intersect or fall within the respective country's boundaries. If simplification is applied, the geometry will have fewer vertices, reducing file size.
 
 ## Licensing
 
